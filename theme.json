@@ -1,7 +1,96 @@
 {
 	"$schema": "https://schemas.wp.org/trunk/theme.json",
 	"version": 3,
-	"settings": {},
+	"settings": {
+		"appearanceTools": true,
+		"layout": {
+			"contentSize": "800px",
+			"wideSize": "1200px"
+		},
+		"spacing": {
+			"defaultSpacingSizes": false,
+			"spacingSizes": [
+				{
+					"name": "20",
+					"size": "0.44rem",
+					"slug": "20"
+				},
+				{
+					"name": "30",
+					"size": "0.67rem",
+					"slug": "30"
+				},
+				{
+					"name": "40",
+					"size": "1rem",
+					"slug": "40"
+				},
+				{
+					"name": "50",
+					"size": "1.5rem",
+					"slug": "50"
+				},
+				{
+					"name": "60",
+					"size": "2.25rem",
+					"slug": "60"
+				},
+				{
+					"name": "70",
+					"size": "3.38rem",
+					"slug": "70"
+				},
+				{
+					"name": "80",
+					"size": "5.06rem",
+					"slug": "80"
+				},
+				{
+					"name": "X-Small",
+					"size": "clamp(0.5rem, calc( 0.35rem + 1vw ), 1rem)",
+					"slug": "x-small"
+				},
+				{
+					"name": "Small",
+					"size": "clamp(0.85rem, calc( 0.62rem + 1.2vw ), 1.5rem)",
+					"slug": "small"
+				},
+				{
+					"name": "Medium",
+					"size": "clamp(1rem, calc( 0.64rem + 1.82vw ), 2rem)",
+					"slug": "medium"
+				},
+				{
+					"name": "Large",
+					"size": "clamp(1.25rem, calc( 0.62rem + 3.19vw ), 3rem)",
+					"slug": "large"
+				},
+				{
+					"name": "X-Large",
+					"size": "clamp(1.5rem, calc( 0.6rem + 4.55vw ), 4rem)",
+					"slug": "x-Large"
+				},
+				{
+					"name": "XX-Large",
+					"size": "clamp(2rem, calc( 0.55rem + 7.28vw ), 6rem)",
+					"slug": "xx-large"
+				},
+				{
+					"name": "Giant",
+					"size": "clamp(2rem, calc( 0rem + 10vw ), 7.5rem)",
+					"slug": "giant"
+				}
+			],
+			"units": [
+				"%",
+				"px",
+				"em",
+				"rem",
+				"vh",
+				"vw"
+			]
+		}
+	},
 	"styles": {},
 	"templateParts": [],
 	"customTemplates": []
