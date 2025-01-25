@@ -47,37 +47,37 @@
 				},
 				{
 					"name": "X-Small",
-					"size": "clamp(0.5rem, calc( 0.35rem + 1vw ), 1rem)",
+					"size": "clamp(0.5rem, 0.35rem + 1vw, 1rem)",
 					"slug": "x-small"
 				},
 				{
 					"name": "Small",
-					"size": "clamp(0.85rem, calc( 0.62rem + 1.2vw ), 1.5rem)",
+					"size": "clamp(0.85rem, 0.62rem + 1.2vw, 1.5rem)",
 					"slug": "small"
 				},
 				{
 					"name": "Medium",
-					"size": "clamp(1rem, calc( 0.64rem + 1.82vw ), 2rem)",
+					"size": "clamp(1rem, 0.64rem + 1.82vw, 2rem)",
 					"slug": "medium"
 				},
 				{
 					"name": "Large",
-					"size": "clamp(1.25rem, calc( 0.62rem + 3.19vw ), 3rem)",
+					"size": "clamp(1.25rem, 0.62rem + 3.19vw, 3rem)",
 					"slug": "large"
 				},
 				{
 					"name": "X-Large",
-					"size": "clamp(1.5rem, calc( 0.6rem + 4.55vw ), 4rem)",
+					"size": "clamp(1.5rem, 0.6rem + 4.55vw, 4rem)",
 					"slug": "x-Large"
 				},
 				{
 					"name": "XX-Large",
-					"size": "clamp(2rem, calc( 0.55rem + 7.28vw ), 6rem)",
+					"size": "clamp(2rem, 0.55rem + 7.28vw, 6rem)",
 					"slug": "xx-large"
 				},
 				{
 					"name": "Giant",
-					"size": "clamp(2rem, calc( 0rem + 10vw ), 7.5rem)",
+					"size": "clamp(2rem, 0rem + 10vw, 7.5rem)",
 					"slug": "giant"
 				}
 			],
@@ -88,6 +88,65 @@
 				"rem",
 				"vh",
 				"vw"
+			]
+		},
+		"typography": {
+			"defaultFontSizes": false,
+			"fontSizes": [
+				{
+					"fluid": {
+						"max": "1rem",
+						"min": "0.875rem"
+					},
+					"name": "X-Small",
+					"size": "0.875rem",
+					"slug": "x-small"
+				},
+				{
+					"fluid": {
+						"max": "1.125rem",
+						"min": "1rem"
+					},
+					"name": "Small",
+					"size": "1rem",
+					"slug": "small"
+				},
+				{
+					"fluid": {
+						"max": "1.5rem",
+						"min": "1.125rem"
+					},
+					"name": "Medium",
+					"size": "1.125rem",
+					"slug": "medium"
+				},
+				{
+					"fluid": {
+						"max": "2.25rem",
+						"min": "1.25rem"
+					},
+					"name": "Large",
+					"size": "1.25rem",
+					"slug": "large"
+				},
+				{
+					"fluid": {
+						"max": "2.625rem",
+						"min": "1.5rem"
+					},
+					"name": "X-Large",
+					"size": "1.5rem",
+					"slug": "x-large"
+				},
+				{
+					"fluid": {
+						"max": "4rem",
+						"min": "2rem"
+					},
+					"name": "XX-Large",
+					"size": "2rem",
+					"slug": "xx-large"
+				}
 			]
 		}
 	},
