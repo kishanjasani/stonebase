@@ -3,6 +3,67 @@
 	"version": 3,
 	"settings": {
 		"appearanceTools": true,
+		"useRootPaddingAwareAlignments": true,
+		"color": {
+			"defaultPalette": false,
+			"palette": [
+				{
+					"color": "#FFFFFF",
+					"name": "Base",
+					"slug": "base"
+				},
+				{
+					"color": "#F9F9FB",
+					"name": "Base 2",
+					"slug": "base-2"
+				},
+				{
+					"color": "#F4F4F6",
+					"name": "Base 3",
+					"slug": "base-3"
+				},
+				{
+					"color": "#E7E7EF",
+					"name": "Base 4",
+					"slug": "base-4"
+				},
+				{
+					"color": "#060C39",
+					"name": "Contrast",
+					"slug": "contrast"
+				},
+				{
+					"color": "#383D61",
+					"name": "Contrast 2",
+					"slug": "contrast-2"
+				},
+				{
+					"color": "#6A6D88",
+					"name": "Contrast 3",
+					"slug": "contrast-3"
+				},
+				{
+					"color": "#A7AABA",
+					"name": "Contrast 4",
+					"slug": "contrast-4"
+				},
+				{
+					"color": "#294BF3",
+					"name": "Primary",
+					"slug": "primary"
+				},
+				{
+					"color": "#8CD6FF",
+					"name": "Secondary",
+					"slug": "secondary"
+				},
+				{
+					"color": "#F5F7FD",
+					"name": "Tertiary",
+					"slug": "tertiary"
+				}
+			]
+		},
 		"layout": {
 			"contentSize": "800px",
 			"wideSize": "1200px"
@@ -92,6 +153,120 @@
 		},
 		"typography": {
 			"defaultFontSizes": false,
+			"fontFamilies": [
+				{
+					"fontFace": [
+						{
+							"fontFamily": "Poppins",
+							"fontStretch": "normal",
+							"fontStyle": "normal",
+							"fontWeight": "400",
+							"src": [
+								"file:./assets/fonts/poppins/poppins-regular.woff2"
+							]
+						},
+						{
+							"fontFamily": "Poppins",
+							"fontStretch": "normal",
+							"fontStyle": "italic",
+							"fontWeight": "400",
+							"src": [
+								"file:./assets/fonts/poppins/poppins-italic.woff2"
+							]
+						},
+						{
+							"fontFamily": "Poppins",
+							"fontStretch": "normal",
+							"fontStyle": "normal",
+							"fontWeight": "500",
+							"src": [
+								"file:./assets/fonts/poppins/poppins-500.woff2"
+							]
+						},
+						{
+							"fontFamily": "Poppins",
+							"fontStretch": "normal",
+							"fontStyle": "italic",
+							"fontWeight": "500",
+							"src": [
+								"file:./assets/fonts/poppins/poppins-500italic.woff2"
+							]
+						},
+						{
+							"fontFamily": "Poppins",
+							"fontStretch": "normal",
+							"fontStyle": "normal",
+							"fontWeight": "600",
+							"src": [
+								"file:./assets/fonts/poppins/poppins-600.woff2"
+							]
+						},
+						{
+							"fontFamily": "Poppins",
+							"fontStretch": "normal",
+							"fontStyle": "italic",
+							"fontWeight": "600",
+							"src": [
+								"file:./assets/fonts/poppins/poppins-600italic.woff2"
+							]
+						},
+						{
+							"fontFamily": "Poppins",
+							"fontStretch": "normal",
+							"fontStyle": "normal",
+							"fontWeight": "700",
+							"src": [
+								"file:./assets/fonts/poppins/poppins-700.woff2"
+							]
+						},
+						{
+							"fontFamily": "Poppins",
+							"fontStretch": "normal",
+							"fontStyle": "italic",
+							"fontWeight": "700",
+							"src": [
+								"file:./assets/fonts/poppins/poppins-700italic.woff2"
+							]
+						},
+						{
+							"fontFamily": "Poppins",
+							"fontStretch": "normal",
+							"fontStyle": "normal",
+							"fontWeight": "800",
+							"src": [
+								"file:./assets/fonts/poppins/poppins-800.woff2"
+							]
+						},
+						{
+							"fontFamily": "Poppins",
+							"fontStretch": "normal",
+							"fontStyle": "normal",
+							"fontWeight": "900",
+							"src": [
+								"file:./assets/fonts/poppins/poppins-900.woff2"
+							]
+						}
+					],
+					"name": "Primary",
+					"slug": "primary",
+					"fontFamily": "Poppins, sans-serif"
+				},
+				{
+					"name": "Fira Code",
+					"slug": "fira-code",
+					"fontFamily": "\"Fira Code\", Poppins, sans-serif",
+					"fontFace": [
+						{
+							"src": [
+								"file:./assets/fonts/fira-code/FiraCode-VariableFont_wght.woff2"
+							],
+							"fontWeight": "300 700",
+							"fontStyle": "normal",
+							"fontFamily": "\"Fira Code\""
+						}
+					]
+				}
+			],
 			"fontSizes": [
 				{
 					"fluid": {
@@ -150,7 +325,15 @@
 			]
 		}
 	},
-	"styles": {},
+	"styles": {
+		"typography": {
+			"fontFamily": "var:preset|font-family|poppins",
+			"fontSize": "var:preset|font-size|large",
+			"fontWeight": "400",
+			"letterSpacing": "-0.1px",
+			"lineHeight": "1.4"
+		}
+	},
 	"templateParts": [],
 	"customTemplates": []
 }
