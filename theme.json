@@ -328,7 +328,7 @@
 	},
 	"styles": {
 		"typography": {
-			"fontFamily": "var:preset|font-family|poppins",
+			"fontFamily": "var:preset|font-family|primary",
 			"fontSize": "var:preset|font-size|large",
 			"fontWeight": "400",
 			"letterSpacing": "-0.1px",
