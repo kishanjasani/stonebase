@@ -327,9 +327,13 @@
 		}
 	},
 	"styles": {
+		"color": {
+			"background": "var:preset|color|base",
+			"text": "var:preset|color|contrast"
+		},
 		"typography": {
 			"fontFamily": "var:preset|font-family|primary",
-			"fontSize": "var:preset|font-size|large",
+			"fontSize": "var:preset|font-size|x-small",
 			"fontWeight": "400",
 			"letterSpacing": "-0.1px",
 			"lineHeight": "1.4"
