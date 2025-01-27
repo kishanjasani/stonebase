@@ -346,6 +346,9 @@
 				"typography": {
 					"fontSize": "var:preset|font-size|x-small"
 				}
+			},
+			"core/group": {
+				"css": ".wp-block-group.has-background.alignwide { box-sizing: content-box; padding-left: var(--wp--preset--spacing--x-large); padding-right: var(--wp--preset--spacing--x-large); }"
 			}
 		},
 		"elements": {
@@ -364,6 +367,16 @@
 					},
 					"border": {
 						"color": "transparent"
+					}
+				},
+				":focus": {
+					"color": {
+						"background": "color-mix(in srgb, var(--wp--preset--color--contrast) 85%, transparent)",
+						"text": "var:preset|color|base"
+					},
+					"outline": {
+						"color": "var:preset|color|base",
+						"offset": "1px"
 					}
 				},
 				"typography": {
